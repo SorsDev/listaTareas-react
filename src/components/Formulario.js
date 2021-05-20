@@ -21,6 +21,7 @@ const Formulario = ({tareas,cambiarTareas}) => {
                 },
             ]
         );
+        cambiarInputTarea(''); //Devuelve el campo input vaciò cuando ya se guarda
     }
     return ( 
         <form action="" className="formulario-tareas" onSubmit={handleSubmit}>

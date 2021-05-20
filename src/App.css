@@ -148,6 +148,10 @@
   font-family: 'Girassol', cursive;
   margin-right: 20px;
 }
+.formulario-editar-tarea__input:focus{
+  outline: none;
+  border-bottom: 2px solid var(--azul);
+}
 .formulario-editar-tarea__btn{
   border: none;
   background: var(--verde);
